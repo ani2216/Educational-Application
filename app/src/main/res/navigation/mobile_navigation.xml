@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home"
+    >
+    <fragment
+        android:id="@+id/ChangeProfile"
+        android:name="com.example.sidebar.fragment.changeprofile"
+        android:label="Change Profile"
+        tools:layout="@layout/fragment_changeprofile" />
+    <fragment
+        android:id="@+id/changePassword"
+        android:name="com.example.sidebar.fragment.changepassword"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_changepassword" />
+    <fragment
+        android:id="@+id/Song"
+        android:name="com.example.sidebar.fragment.muscify"
+        android:label="Musicfy"
+        tools:layout="@layout/fragment_muscify" />
+<!--    <fragment-->
+<!--        android:id="@+id/quotes"-->
+<!--        android:name="com.example.sidebar.fragment.quotes"-->
+<!--        android:label="Quotes"-->
+<!--        tools:layout="@layout/fragment_quotes" />-->
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.sidebar.fragment.news"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/texttodetect"
+        android:name="com.example.sidebar.fragment.textdetection"
+        android:label="Text Detection"
+        tools:layout="@layout/fragment_textdetection" />
+    <fragment
+        android:id="@+id/CustomerService"
+        android:name="com.example.sidebar.fragment.customerservice"
+        android:label="Customer Service"
+        tools:layout="@layout/fragment_customerservice" />
+    <fragment
+        android:id="@+id/FAQ"
+        android:name="com.example.sidebar.fragment.faq"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/Setting"
+        android:name="com.example.sidebar.fragment.setting"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.sidebar.fragment.fronthome"
+        android:label="Content Guru"
+        tools:layout="@layout/fragment_fronthome" />
+    <fragment
+        android:id="@+id/application"
+        android:name="com.example.sidebar.fragment.application"
+        android:label="E-Application"
+        tools:layout="@layout/fragment_application" />
+    <fragment
+        android:id="@+id/groupchat"
+        android:name="com.example.sidebar.fragment.groupchat"
+        android:label="Group Chat"
+        tools:layout="@layout/fragment_groupchat" />
+    <fragment
+        android:id="@+id/chatbot"
+        android:name="com.example.sidebar.fragment.chatbot"
+        android:label="Chat-Bot"
+        tools:layout="@layout/fragment_chatbot" />
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="math">#A20BBD</color>
+    <color name="math1">#F56BD2</color>
+    <color name="physics">#F06406</color>
+    <color name="physics1">#F0A12C</color>
+    <color name="chem">#FBCA04</color>
+    <color name="chem1">#E98F0B</color>
+    <color name="bio">#F38524</color>
+    <color name="bio1">#EBF39B73</color>
+    <color name="comp">#526AEE</color>
+    <color name="comp1">#3EC2FA</color>
+    <color name="web">#7cfc00</color>
+    <color name="web1">#006400</color>
+    <color name="linear">#323232</color>
+    <color name="linear1">#191919</color>
+    <color name="lightblack">#323232</color>
+    <color name="opacityblack">#00000000</color>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            android:menuCategory="secondary"
+            />
+
+    </group>
+
+    <item
+        android:title="Profile"
+        android:menuCategory="secondary"
+        >
+    <menu>
+        <item
+            android:id="@+id/ChangeProfile"
+            android:icon="@drawable/ic_baseline_sync_alt_24"
+            android:title="Your Profile" />
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@drawable/ic_baseline_visibility_off_24"
+            android:title="Change Password" />
+
+    </menu>
+    </item>
+
+    <item
+        android:title="More Options"
+        android:menuCategory="secondary"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/texttodetect"
+                android:icon="@drawable/camera"
+                android:title="Text-Detection"
+                />
+
+            <item
+                android:id="@+id/Song"
+                android:icon="@drawable/music"
+                android:title="Musicfy"
+                />
+
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/news"
+                android:title="News"
+                />
+
+<!--            <item-->
+<!--                android:id="@+id/quotes"-->
+<!--                android:icon="@drawable/quotes"-->
+<!--                android:title="Facts"/>-->
+
+            <item
+                android:id="@+id/application"
+                android:icon="@drawable/ic_baseline_archive_24"
+                android:title="E-Application"/>
+
+            <item
+                android:id="@+id/groupchat"
+                android:icon="@drawable/ic_baseline_chat_24"
+                android:title="Doubt-Chat"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Services"
+        android:menuCategory="secondary"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/CustomerService"
+                android:icon="@drawable/mail"
+                android:title="Customer Service"
+                />
+
+            <item
+                android:id="@+id/chatbot"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                android:title="Chat Bot"/>
+
+            <item
+                android:id="@+id/FAQ"
+                android:icon="@drawable/source"
+                android:title="FAQ"
+                />
+
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/settings"
+                android:title="Setting"
+                />
+
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Powered By: Content Guru"
+        android:menuCategory="secondary"
+        />
+</menu>
